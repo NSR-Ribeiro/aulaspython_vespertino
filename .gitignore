@@ -1,0 +1,72 @@
+# Criado por https://www.toptal.com/developers/gitignore/api/pythonvanilla
+# Edite em https://www.toptal.com/developers/gitignore?templates=pythonvanilla
+
+### PythonVanilla ###
+# Arquivos DLL compilados/otimizados em bytes
+__pycache__/
+*.py[bacalhau]
+*$py.class
+
+# Extensões C
+*.então
+
+# Distribuição / embalagem
+.Pitão
+construir/
+desenvolver-ovos/
+distância/
+Transferências/
+ovos/
+.ovos/
+biblioteca/
+lib64/
+partes/
+sdist/
+var/
+rodas/
+compartilhar/rodas-python/
+*.informações-do-ovo/
+.instalado.cfg
+*.ovo
+MANIFESTO
+
+# Logs do instalador
+pip-log.txt
+pip-delete-este-diretório.txt
+
+# Teste de unidade / relatórios de cobertura
+htmlcov/
+.tox/
+.nox/
+.cobertura
+.cobertura.*
+.cache
+testes de nariz.xml
+cobertura.xml
+*.cobrir
+*.py,capa
+.hipótese/
+.pytest_cache/
+cobrir/
+
+# Traduções
+*.mo
+*.Panela
+
+# pyenv
+# Para uma biblioteca ou pacote, você pode querer ignorar esses arquivos, pois o código é
+# destinado a ser executado em vários ambientes; caso contrário, faça o check-in:
+# .versão-python
+
+# pipenv
+# De acordo com pypa/pipenv#598, é recomendado incluir Pipfile.lock no controle de versão.
+# No entanto, em caso de colaboração, se houver dependências específicas da plataforma ou dependências
+# não tendo suporte multiplataforma, o pipenv pode instalar dependências que não funcionam, ou não
+# instale todas as dependências necessárias.
+#ArquivoPip.bloqueio
+
+# PEP 582; usado por exemplo github.com/David-OConnor/pyflow
+__pacotes py__/
+
+
+# Fim de https://www.toptal.com/developers/gitignore/api/pythonvanilla
