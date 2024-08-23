@@ -1,0 +1,83 @@
+-- DDL(Data Definition Language)
+-- Linguagem de Definição de Dados
+
+-- CREAT
+-- DROP
+-- ALTER
+
+-- DML (Data Manipulação Language)
+-- Linguagem de Manipulação de Dados
+
+	-- INSERT
+    -- UPDATE
+    -- DELETE
+    
+-- DQL (Data Query Language)
+ -- Linguagem de pesquisa de Dados
+ 
+	-- SELECT
+    -- WHERE
+    -- FROM
+    -- > < >= = AND
+
+
+
+-- DCL (Data Control Language)
+
+ -- Linguagem de Crontrole de Dados
+ -- CRIAR USUÁRIOS
+ -- Tarefas de ADMIN
+ -- Grant
+ -- Revoke
+
+
+-- DTL (Data Transaction Language)
+ -- Linguagem de Transação de Dados
+ 
+ -- BEGIN TRAN (OU BEGIN TRANSACTION) - Marca p começo
+ 
+ 
+ -- DDL: CREAT DATABASE (criar um banco de dados)
+ CREATE DATABASE schooltraker;
+ USE schooltraker;
+ SHOW tables;
+ 
+ CREATE TABLE aluno (
+    Id INT PRIMARY KEY auto_increment,
+    ra CHAR(8) NOT NULL
+);
+
+CREATE TABLE DiarioBordo (
+    id int PRIMARY KEY auto_increment,
+    texto text NOT NULL,
+    datahora datetime,
+    fk_aluno_Id INT
+);
+ describe DiarioBordo;
+
+
+
+
+
+ 
+ALTER TABLE DiarioBordo ADD CONSTRAINT FK_DiarioBordo_2
+    FOREIGN KEY (fk_aluno_Id)
+    REFERENCES aluno (Id)
+    ON DELETE CASCADE;
+    
+    
+    
+    
+    
+    
+    describe aluno;
+    
+    
+    
+    INSERT aluno(ra)values('00034549');
+    INSERT aluno(ra)values('00034547');
+    SELECT * FROM aluno;
+    CREATE TABLE DiarioBordo
+ 
+ 
+ 
